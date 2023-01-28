@@ -1,0 +1,11 @@
+body {
+    font-size: 15pt;
+}
+
+.lbl {
+  color: green;
+}
+
+.val {
+  color: black;
+}
