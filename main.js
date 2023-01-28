@@ -1,6 +1,6 @@
 
 
-var email = prompt("Hola, Enter The Email! Butterfly");
+var email = prompt('Hola, Enter The Email! Butterfly');
 
 var mailapi = "https://api.hunter.io/v2/email-verifier?email=" + email + "&api_key=08feff467a8ed0d134df86992041af58921bb2f0";
 
