@@ -9,3 +9,7 @@ body {
 .val {
   color: black;
 }
+
+span {
+    border: 1px solid black;
+    }
