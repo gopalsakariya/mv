@@ -1,4 +1,4 @@
-var ran = Math.random() * (5 - 1) + 1
+var ran = Math.random() * (12 - 1) + 1
 var apin = Math.floor(ran);
 console.log(apin);
 
@@ -210,5 +210,284 @@ case 5:
 }
 )
     .catch(err => console.error(err));
+break;
+case 6:
+    var email = prompt('Hola, Enter The Email!');
+
+    var mailapi = "https://api.hunter.io/v2/email-verifier?email=" + email + "&api_key=fa026dbe8b5a8e7a32e6d927deab53df95ed6d54";
+
+
+    fetch(mailapi)
+    .then(response => response.json())
+    .then((response) => {
+        
+        console.log(response)
+        
+        
+        document.getElementById('imail').innerHTML = response.data.email;
+        
+        document.getElementById('irslt').innerHTML = response.data.result;
+        
+        document.getElementById('iscr').innerHTML = response.data.score;
+        
+        document.getElementById('ists').innerHTML = response.data.status;
+        
+        if (response.data.status == "valid") {
+
+           document.getElementById("imail").style.color = "green";
+           document.getElementById("irslt").style.color = "green";
+           document.getElementById("iscr").style.color = "green";
+           document.getElementById("ists").style.color = "green";
+
+       }else{
+        document.getElementById("imail").style.color = "red";
+        document.getElementById("irslt").style.color = "red";
+        document.getElementById("iscr").style.color = "red";
+        document.getElementById("ists").style.color = "red";
+    }
+    
+}
+)
+    .catch(err => console.error(err));
+
+    break;
+case 7:
+    var email = prompt('Hola, Enter The Email!');
+
+    var mailapi = "https://api.hunter.io/v2/email-verifier?email=" + email + "&api_key=da7ac6012e6640f306c317d94aea5b3664afc5e5";
+
+
+    fetch(mailapi)
+    .then(response => response.json())
+    .then((response) => {
+        
+        console.log(response)
+        
+        
+        document.getElementById('imail').innerHTML = response.data.email;
+        
+        document.getElementById('irslt').innerHTML = response.data.result;
+        
+        document.getElementById('iscr').innerHTML = response.data.score;
+        
+        document.getElementById('ists').innerHTML = response.data.status;
+        
+        if (response.data.status == "valid") {
+
+           document.getElementById("imail").style.color = "green";
+           document.getElementById("irslt").style.color = "green";
+           document.getElementById("iscr").style.color = "green";
+           document.getElementById("ists").style.color = "green";
+
+       }else{
+        document.getElementById("imail").style.color = "red";
+        document.getElementById("irslt").style.color = "red";
+        document.getElementById("iscr").style.color = "red";
+        document.getElementById("ists").style.color = "red";
+    }
+    
+}
+)
+    .catch(err => console.error(err));
+
+    break;
+case 8 email = prompt('Hola, Enter The Email!');
+
+    var mailapi = "https://api.hunter.io/v2/email-verifier?email=" + email + "&api_key=2e9c3b2dfeb194f836677efc1738c5ae8c1a044f";
+
+
+    fetch(mailapi)
+    .then(response => response.json())
+    .then((response) => {
+        
+        console.log(response)
+        
+        
+        document.getElementById('imail').innerHTML = response.data.email;
+        
+        document.getElementById('irslt').innerHTML = response.data.result;
+        
+        document.getElementById('iscr').innerHTML = response.data.score;
+        
+        document.getElementById('ists').innerHTML = response.data.status;
+        
+        if (response.data.status == "valid") {
+
+           document.getElementById("imail").style.color = "green";
+           document.getElementById("irslt").style.color = "green";
+           document.getElementById("iscr").style.color = "green";
+           document.getElementById("ists").style.color = "green";
+
+       }else{
+        document.getElementById("imail").style.color = "red";
+        document.getElementById("irslt").style.color = "red";
+        document.getElementById("iscr").style.color = "red";
+        document.getElementById("ists").style.color = "red";
+    }
+    
+}
+)
+    .catch(err => console.error(err));
+
+    break;
+case 9:
+    var email = prompt('Hola, Enter The Email!');
+
+    var mailapi = "https://api.hunter.io/v2/email-verifier?email=" + email + "&api_key=576159e1aacd3fdcc9c29fc0cc088d85ec3e029d";
+
+
+    fetch(mailapi)
+    .then(response => response.json())
+    .then((response) => {
+        
+        console.log(response)
+        
+        
+        document.getElementById('imail').innerHTML = response.data.email;
+        
+        document.getElementById('irslt').innerHTML = response.data.result;
+        
+        document.getElementById('iscr').innerHTML = response.data.score;
+        
+        document.getElementById('ists').innerHTML = response.data.status;
+        
+        if (response.data.status == "valid") {
+
+           document.getElementById("imail").style.color = "green";
+           document.getElementById("irslt").style.color = "green";
+           document.getElementById("iscr").style.color = "green";
+           document.getElementById("ists").style.color = "green";
+
+       }else{
+        document.getElementById("imail").style.color = "red";
+        document.getElementById("irslt").style.color = "red";
+        document.getElementById("iscr").style.color = "red";
+        document.getElementById("ists").style.color = "red";
+    }
+    
+}
+)
+    .catch(err => console.error(err));
+
+    break;
+case 10:
+    var email = prompt('Hola, Enter The Email!');
+
+    var mailapi = "https://api.hunter.io/v2/email-verifier?email=" + email + "&api_key=4d07f3b88ea4cb182bed42497e76f3ce3b29fc60";
+
+
+    fetch(mailapi)
+    .then(response => response.json())
+    .then((response) => {
+        
+        console.log(response)
+        
+        
+        document.getElementById('imail').innerHTML = response.data.email;
+        
+        document.getElementById('irslt').innerHTML = response.data.result;
+        
+        document.getElementById('iscr').innerHTML = response.data.score;
+        
+        document.getElementById('ists').innerHTML = response.data.status;
+        
+        if (response.data.status == "valid") {
+
+           document.getElementById("imail").style.color = "green";
+           document.getElementById("irslt").style.color = "green";
+           document.getElementById("iscr").style.color = "green";
+           document.getElementById("ists").style.color = "green";
+
+       }else{
+        document.getElementById("imail").style.color = "red";
+        document.getElementById("irslt").style.color = "red";
+        document.getElementById("iscr").style.color = "red";
+        document.getElementById("ists").style.color = "red";
+    }
+    
+}
+)
+    .catch(err => console.error(err));
+
+    break;
+case 11:
+    var email = prompt('Hola, Enter The Email!');
+
+    var mailapi = "https://api.hunter.io/v2/email-verifier?email=" + email + "&api_key=b87e95dd458d61ce005da70738ee6e790d643fa0";
+
+
+    fetch(mailapi)
+    .then(response => response.json())
+    .then((response) => {
+        
+        console.log(response)
+        
+        
+        document.getElementById('imail').innerHTML = response.data.email;
+        
+        document.getElementById('irslt').innerHTML = response.data.result;
+        
+        document.getElementById('iscr').innerHTML = response.data.score;
+        
+        document.getElementById('ists').innerHTML = response.data.status;
+        
+        if (response.data.status == "valid") {
+
+           document.getElementById("imail").style.color = "green";
+           document.getElementById("irslt").style.color = "green";
+           document.getElementById("iscr").style.color = "green";
+           document.getElementById("ists").style.color = "green";
+
+       }else{
+        document.getElementById("imail").style.color = "red";
+        document.getElementById("irslt").style.color = "red";
+        document.getElementById("iscr").style.color = "red";
+        document.getElementById("ists").style.color = "red";
+    }
+    
+}
+)
+    .catch(err => console.error(err));
+
+    break;
+case 12:
+    var email = prompt('Hola, Enter The Email!');
+
+    var mailapi = "https://api.hunter.io/v2/email-verifier?email=" + email + "&api_key=e94918ffe1ee7b246949a26442feaf23d326b321";
+
+
+    fetch(mailapi)
+    .then(response => response.json())
+    .then((response) => {
+        
+        console.log(response)
+        
+        
+        document.getElementById('imail').innerHTML = response.data.email;
+        
+        document.getElementById('irslt').innerHTML = response.data.result;
+        
+        document.getElementById('iscr').innerHTML = response.data.score;
+        
+        document.getElementById('ists').innerHTML = response.data.status;
+        
+        if (response.data.status == "valid") {
+
+           document.getElementById("imail").style.color = "green";
+           document.getElementById("irslt").style.color = "green";
+           document.getElementById("iscr").style.color = "green";
+           document.getElementById("ists").style.color = "green";
+
+       }else{
+        document.getElementById("imail").style.color = "red";
+        document.getElementById("irslt").style.color = "red";
+        document.getElementById("iscr").style.color = "red";
+        document.getElementById("ists").style.color = "red";
+    }
+    
+}
+)
+    .catch(err => console.error(err));
 
 }
+
