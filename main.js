@@ -1,4 +1,4 @@
-var ran = Math.random() * (12 - 1) + 1
+var ran = Math.random() * (13 - 1) + 1
 var apin = Math.floor(ran);
 console.log(apin);
 
@@ -454,6 +454,46 @@ case 12:
     var email = prompt('Hola, Enter The Email!');
 
     var mailapi = "https://api.hunter.io/v2/email-verifier?email=" + email + "&api_key=e94918ffe1ee7b246949a26442feaf23d326b321";
+
+
+    fetch(mailapi)
+    .then(response => response.json())
+    .then((response) => {
+        
+        console.log(response)
+        
+        
+        document.getElementById('imail').innerHTML = response.data.email;
+        
+        document.getElementById('irslt').innerHTML = response.data.result;
+        
+        document.getElementById('iscr').innerHTML = response.data.score;
+        
+        document.getElementById('ists').innerHTML = response.data.status;
+        
+        if (response.data.status == "valid") {
+
+           document.getElementById("imail").style.color = "green";
+           document.getElementById("irslt").style.color = "green";
+           document.getElementById("iscr").style.color = "green";
+           document.getElementById("ists").style.color = "green";
+
+       }else{
+        document.getElementById("imail").style.color = "red";
+        document.getElementById("irslt").style.color = "red";
+        document.getElementById("iscr").style.color = "red";
+        document.getElementById("ists").style.color = "red";
+    }
+    
+}
+)
+    .catch(err => console.error(err));
+
+    break;
+case 13:
+    var email = prompt('Hola, Enter The Email!');
+
+    var mailapi = "https://api.hunter.io/v2/email-verifier?email=" + email + "&api_key=27354f81bc6a00de03640625c9670e13230bc703";
 
 
     fetch(mailapi)
