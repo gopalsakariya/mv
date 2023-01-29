@@ -5,7 +5,7 @@ console.log(apin);
 
 switch (apin) {
 case 1:
-    
+
     var email = prompt('Hola, Enter The Email!');
 
     var mailapi = "https://api.hunter.io/v2/email-verifier?email=" + email + "&api_key=08feff467a8ed0d134df86992041af58921bb2f0";
@@ -14,7 +14,7 @@ case 1:
     fetch(mailapi)
     .then(response => response.json())
     .then((response) => {
-        
+
         console.log(response)
         
         
@@ -30,12 +30,12 @@ case 1:
 
         if (response.data.status == "valid") {
 
-           document.getElementById("imail").style.color = "green";
-           document.getElementById("irslt").style.color = "green";
-           document.getElementById("iscr").style.color = "green";
-           document.getElementById("ists").style.color = "green";
+         document.getElementById("imail").style.color = "green";
+         document.getElementById("irslt").style.color = "green";
+         document.getElementById("iscr").style.color = "green";
+         document.getElementById("ists").style.color = "green";
 
-       }else{
+     }else{
         document.getElementById("imail").style.color = "red";
         document.getElementById("irslt").style.color = "red";
         document.getElementById("iscr").style.color = "red";
@@ -48,16 +48,16 @@ case 1:
 
     break;
 case 2:
-    
- var email = prompt('Hola, Enter The Email!');
 
- var mailapi = "https://api.hunter.io/v2/email-verifier?email=" + email + "&api_key=771fda195655ce48339957c2972a4cc6507d5aed";
+   var email = prompt('Hola, Enter The Email!');
+
+   var mailapi = "https://api.hunter.io/v2/email-verifier?email=" + email + "&api_key=771fda195655ce48339957c2972a4cc6507d5aed";
 
 
- fetch(mailapi)
- .then(response => response.json())
- .then((response) => {
-    
+   fetch(mailapi)
+   .then(response => response.json())
+   .then((response) => {
+
     console.log(response)
     
     
@@ -71,12 +71,12 @@ case 2:
     
     if (response.data.status == "valid") {
 
-       document.getElementById("imail").style.color = "green";
-       document.getElementById("irslt").style.color = "green";
-       document.getElementById("iscr").style.color = "green";
-       document.getElementById("ists").style.color = "green";
+     document.getElementById("imail").style.color = "green";
+     document.getElementById("irslt").style.color = "green";
+     document.getElementById("iscr").style.color = "green";
+     document.getElementById("ists").style.color = "green";
 
-   }else{
+ }else{
     document.getElementById("imail").style.color = "red";
     document.getElementById("irslt").style.color = "red";
     document.getElementById("iscr").style.color = "red";
@@ -85,11 +85,11 @@ case 2:
 
 }
 )
- .catch(err => console.error(err));
+   .catch(err => console.error(err));
 
- 
- 
- break;
+
+
+   break;
 case 3:
 
     var email = prompt('Hola, Enter The Email!');
@@ -100,7 +100,7 @@ case 3:
     fetch(mailapi)
     .then(response => response.json())
     .then((response) => {
-        
+
         console.log(response)
         
         
@@ -114,12 +114,12 @@ case 3:
         
         if (response.data.status == "valid") {
 
-           document.getElementById("imail").style.color = "green";
-           document.getElementById("irslt").style.color = "green";
-           document.getElementById("iscr").style.color = "green";
-           document.getElementById("ists").style.color = "green";
+         document.getElementById("imail").style.color = "green";
+         document.getElementById("irslt").style.color = "green";
+         document.getElementById("iscr").style.color = "green";
+         document.getElementById("ists").style.color = "green";
 
-       }else{
+     }else{
         document.getElementById("imail").style.color = "red";
         document.getElementById("irslt").style.color = "red";
         document.getElementById("iscr").style.color = "red";
@@ -141,7 +141,7 @@ case 4:
     fetch(mailapi)
     .then(response => response.json())
     .then((response) => {
-        
+
         console.log(response)
         
         
@@ -156,12 +156,12 @@ case 4:
         
         if (response.data.status == "valid") {
 
-           document.getElementById("imail").style.color = "green";
-           document.getElementById("irslt").style.color = "green";
-           document.getElementById("iscr").style.color = "green";
-           document.getElementById("ists").style.color = "green";
+         document.getElementById("imail").style.color = "green";
+         document.getElementById("irslt").style.color = "green";
+         document.getElementById("iscr").style.color = "green";
+         document.getElementById("ists").style.color = "green";
 
-       }else{
+     }else{
         document.getElementById("imail").style.color = "red";
         document.getElementById("irslt").style.color = "red";
         document.getElementById("iscr").style.color = "red";
@@ -181,7 +181,7 @@ case 5:
     fetch(mailapi)
     .then(response => response.json())
     .then((response) => {
-        
+
         console.log(response)
         
         
@@ -195,12 +195,12 @@ case 5:
         
         if (response.data.status == "valid") {
 
-           document.getElementById("imail").style.color = "green";
-           document.getElementById("irslt").style.color = "green";
-           document.getElementById("iscr").style.color = "green";
-           document.getElementById("ists").style.color = "green";
+         document.getElementById("imail").style.color = "green";
+         document.getElementById("irslt").style.color = "green";
+         document.getElementById("iscr").style.color = "green";
+         document.getElementById("ists").style.color = "green";
 
-       }else{
+     }else{
         document.getElementById("imail").style.color = "red";
         document.getElementById("irslt").style.color = "red";
         document.getElementById("iscr").style.color = "red";
@@ -210,7 +210,7 @@ case 5:
 }
 )
     .catch(err => console.error(err));
-break;
+    break;
 case 6:
     var email = prompt('Hola, Enter The Email!');
 
@@ -220,7 +220,7 @@ case 6:
     fetch(mailapi)
     .then(response => response.json())
     .then((response) => {
-        
+
         console.log(response)
         
         
@@ -234,12 +234,12 @@ case 6:
         
         if (response.data.status == "valid") {
 
-           document.getElementById("imail").style.color = "green";
-           document.getElementById("irslt").style.color = "green";
-           document.getElementById("iscr").style.color = "green";
-           document.getElementById("ists").style.color = "green";
+         document.getElementById("imail").style.color = "green";
+         document.getElementById("irslt").style.color = "green";
+         document.getElementById("iscr").style.color = "green";
+         document.getElementById("ists").style.color = "green";
 
-       }else{
+     }else{
         document.getElementById("imail").style.color = "red";
         document.getElementById("irslt").style.color = "red";
         document.getElementById("iscr").style.color = "red";
@@ -260,7 +260,7 @@ case 7:
     fetch(mailapi)
     .then(response => response.json())
     .then((response) => {
-        
+
         console.log(response)
         
         
@@ -274,12 +274,12 @@ case 7:
         
         if (response.data.status == "valid") {
 
-           document.getElementById("imail").style.color = "green";
-           document.getElementById("irslt").style.color = "green";
-           document.getElementById("iscr").style.color = "green";
-           document.getElementById("ists").style.color = "green";
+         document.getElementById("imail").style.color = "green";
+         document.getElementById("irslt").style.color = "green";
+         document.getElementById("iscr").style.color = "green";
+         document.getElementById("ists").style.color = "green";
 
-       }else{
+     }else{
         document.getElementById("imail").style.color = "red";
         document.getElementById("irslt").style.color = "red";
         document.getElementById("iscr").style.color = "red";
@@ -291,7 +291,7 @@ case 7:
     .catch(err => console.error(err));
 
     break;
-case 8 email = prompt('Hola, Enter The Email!');
+case 8: email = prompt('Hola, Enter The Email!');
 
     var mailapi = "https://api.hunter.io/v2/email-verifier?email=" + email + "&api_key=2e9c3b2dfeb194f836677efc1738c5ae8c1a044f";
 
@@ -299,7 +299,7 @@ case 8 email = prompt('Hola, Enter The Email!');
     fetch(mailapi)
     .then(response => response.json())
     .then((response) => {
-        
+
         console.log(response)
         
         
@@ -313,12 +313,12 @@ case 8 email = prompt('Hola, Enter The Email!');
         
         if (response.data.status == "valid") {
 
-           document.getElementById("imail").style.color = "green";
-           document.getElementById("irslt").style.color = "green";
-           document.getElementById("iscr").style.color = "green";
-           document.getElementById("ists").style.color = "green";
+         document.getElementById("imail").style.color = "green";
+         document.getElementById("irslt").style.color = "green";
+         document.getElementById("iscr").style.color = "green";
+         document.getElementById("ists").style.color = "green";
 
-       }else{
+     }else{
         document.getElementById("imail").style.color = "red";
         document.getElementById("irslt").style.color = "red";
         document.getElementById("iscr").style.color = "red";
@@ -339,7 +339,7 @@ case 9:
     fetch(mailapi)
     .then(response => response.json())
     .then((response) => {
-        
+
         console.log(response)
         
         
@@ -353,12 +353,12 @@ case 9:
         
         if (response.data.status == "valid") {
 
-           document.getElementById("imail").style.color = "green";
-           document.getElementById("irslt").style.color = "green";
-           document.getElementById("iscr").style.color = "green";
-           document.getElementById("ists").style.color = "green";
+         document.getElementById("imail").style.color = "green";
+         document.getElementById("irslt").style.color = "green";
+         document.getElementById("iscr").style.color = "green";
+         document.getElementById("ists").style.color = "green";
 
-       }else{
+     }else{
         document.getElementById("imail").style.color = "red";
         document.getElementById("irslt").style.color = "red";
         document.getElementById("iscr").style.color = "red";
@@ -379,7 +379,7 @@ case 10:
     fetch(mailapi)
     .then(response => response.json())
     .then((response) => {
-        
+
         console.log(response)
         
         
@@ -393,12 +393,12 @@ case 10:
         
         if (response.data.status == "valid") {
 
-           document.getElementById("imail").style.color = "green";
-           document.getElementById("irslt").style.color = "green";
-           document.getElementById("iscr").style.color = "green";
-           document.getElementById("ists").style.color = "green";
+         document.getElementById("imail").style.color = "green";
+         document.getElementById("irslt").style.color = "green";
+         document.getElementById("iscr").style.color = "green";
+         document.getElementById("ists").style.color = "green";
 
-       }else{
+     }else{
         document.getElementById("imail").style.color = "red";
         document.getElementById("irslt").style.color = "red";
         document.getElementById("iscr").style.color = "red";
@@ -419,7 +419,7 @@ case 11:
     fetch(mailapi)
     .then(response => response.json())
     .then((response) => {
-        
+
         console.log(response)
         
         
@@ -433,12 +433,12 @@ case 11:
         
         if (response.data.status == "valid") {
 
-           document.getElementById("imail").style.color = "green";
-           document.getElementById("irslt").style.color = "green";
-           document.getElementById("iscr").style.color = "green";
-           document.getElementById("ists").style.color = "green";
+         document.getElementById("imail").style.color = "green";
+         document.getElementById("irslt").style.color = "green";
+         document.getElementById("iscr").style.color = "green";
+         document.getElementById("ists").style.color = "green";
 
-       }else{
+     }else{
         document.getElementById("imail").style.color = "red";
         document.getElementById("irslt").style.color = "red";
         document.getElementById("iscr").style.color = "red";
@@ -459,7 +459,7 @@ case 12:
     fetch(mailapi)
     .then(response => response.json())
     .then((response) => {
-        
+
         console.log(response)
         
         
@@ -473,12 +473,12 @@ case 12:
         
         if (response.data.status == "valid") {
 
-           document.getElementById("imail").style.color = "green";
-           document.getElementById("irslt").style.color = "green";
-           document.getElementById("iscr").style.color = "green";
-           document.getElementById("ists").style.color = "green";
+         document.getElementById("imail").style.color = "green";
+         document.getElementById("irslt").style.color = "green";
+         document.getElementById("iscr").style.color = "green";
+         document.getElementById("ists").style.color = "green";
 
-       }else{
+     }else{
         document.getElementById("imail").style.color = "red";
         document.getElementById("irslt").style.color = "red";
         document.getElementById("iscr").style.color = "red";
@@ -499,7 +499,7 @@ case 13:
     fetch(mailapi)
     .then(response => response.json())
     .then((response) => {
-        
+
         console.log(response)
         
         
@@ -513,12 +513,12 @@ case 13:
         
         if (response.data.status == "valid") {
 
-           document.getElementById("imail").style.color = "green";
-           document.getElementById("irslt").style.color = "green";
-           document.getElementById("iscr").style.color = "green";
-           document.getElementById("ists").style.color = "green";
+         document.getElementById("imail").style.color = "green";
+         document.getElementById("irslt").style.color = "green";
+         document.getElementById("iscr").style.color = "green";
+         document.getElementById("ists").style.color = "green";
 
-       }else{
+     }else{
         document.getElementById("imail").style.color = "red";
         document.getElementById("irslt").style.color = "red";
         document.getElementById("iscr").style.color = "red";
