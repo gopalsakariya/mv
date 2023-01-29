@@ -1,8 +1,3 @@
-var chkpass = prompt("Password Please!");
-var pass = "3925";
-
-if (chkpass == pass) {
-
 var ran = Math.random() * (5 - 1) + 1
 var apin = Math.floor(ran);
 console.log(apin);
@@ -216,9 +211,4 @@ case 5:
 )
     .catch(err => console.error(err));
 
-}
-
-}else{
-    alert("Wrong Password!!!");
-    location.href = '404.html';
 }
