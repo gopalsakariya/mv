@@ -1,5 +1,6 @@
-var ran = Math.random() * (13 - 1) + 1
-var apin = Math.floor(ran);
+var ran = Array(1,2,3,4,5,7,8,10,12,13);
+
+var apin = ran[Math.floor(Math.random()*ran.length)];
 console.log(apin);
 
 
