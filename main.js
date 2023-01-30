@@ -37,12 +37,12 @@ function SearchMail() {
 
             if (response.data.status == "valid") {
 
-             document.getElementById("imail").style.color = "green";
-             document.getElementById("irslt").style.color = "green";
-             document.getElementById("iscr").style.color = "green";
-             document.getElementById("ists").style.color = "green";
+               document.getElementById("imail").style.color = "green";
+               document.getElementById("irslt").style.color = "green";
+               document.getElementById("iscr").style.color = "green";
+               document.getElementById("ists").style.color = "green";
 
-         }else{
+           }else{
             document.getElementById("imail").style.color = "red";
             document.getElementById("irslt").style.color = "red";
             document.getElementById("iscr").style.color = "red";
@@ -73,12 +73,12 @@ function SearchMail() {
 
             if (response.data.status == "valid") {
 
-             document.getElementById("imail").style.color = "green";
-             document.getElementById("irslt").style.color = "green";
-             document.getElementById("iscr").style.color = "green";
-             document.getElementById("ists").style.color = "green";
+               document.getElementById("imail").style.color = "green";
+               document.getElementById("irslt").style.color = "green";
+               document.getElementById("iscr").style.color = "green";
+               document.getElementById("ists").style.color = "green";
 
-         }else{
+           }else{
             document.getElementById("imail").style.color = "red";
             document.getElementById("irslt").style.color = "red";
             document.getElementById("iscr").style.color = "red";
@@ -116,12 +116,12 @@ function SearchMail() {
 
             if (response.data.status == "valid") {
 
-             document.getElementById("imail").style.color = "green";
-             document.getElementById("irslt").style.color = "green";
-             document.getElementById("iscr").style.color = "green";
-             document.getElementById("ists").style.color = "green";
+               document.getElementById("imail").style.color = "green";
+               document.getElementById("irslt").style.color = "green";
+               document.getElementById("iscr").style.color = "green";
+               document.getElementById("ists").style.color = "green";
 
-         }else{
+           }else{
             document.getElementById("imail").style.color = "red";
             document.getElementById("irslt").style.color = "red";
             document.getElementById("iscr").style.color = "red";
@@ -157,12 +157,12 @@ function SearchMail() {
 
             if (response.data.status == "valid") {
 
-             document.getElementById("imail").style.color = "green";
-             document.getElementById("irslt").style.color = "green";
-             document.getElementById("iscr").style.color = "green";
-             document.getElementById("ists").style.color = "green";
+               document.getElementById("imail").style.color = "green";
+               document.getElementById("irslt").style.color = "green";
+               document.getElementById("iscr").style.color = "green";
+               document.getElementById("ists").style.color = "green";
 
-         }else{
+           }else{
             document.getElementById("imail").style.color = "red";
             document.getElementById("irslt").style.color = "red";
             document.getElementById("iscr").style.color = "red";
@@ -196,12 +196,12 @@ function SearchMail() {
 
             if (response.data.status == "valid") {
 
-             document.getElementById("imail").style.color = "green";
-             document.getElementById("irslt").style.color = "green";
-             document.getElementById("iscr").style.color = "green";
-             document.getElementById("ists").style.color = "green";
+               document.getElementById("imail").style.color = "green";
+               document.getElementById("irslt").style.color = "green";
+               document.getElementById("iscr").style.color = "green";
+               document.getElementById("ists").style.color = "green";
 
-         }else{
+           }else{
             document.getElementById("imail").style.color = "red";
             document.getElementById("irslt").style.color = "red";
             document.getElementById("iscr").style.color = "red";
@@ -234,12 +234,12 @@ function SearchMail() {
 
             if (response.data.status == "valid") {
 
-             document.getElementById("imail").style.color = "green";
-             document.getElementById("irslt").style.color = "green";
-             document.getElementById("iscr").style.color = "green";
-             document.getElementById("ists").style.color = "green";
+               document.getElementById("imail").style.color = "green";
+               document.getElementById("irslt").style.color = "green";
+               document.getElementById("iscr").style.color = "green";
+               document.getElementById("ists").style.color = "green";
 
-         }else{
+           }else{
             document.getElementById("imail").style.color = "red";
             document.getElementById("irslt").style.color = "red";
             document.getElementById("iscr").style.color = "red";
@@ -274,12 +274,12 @@ function SearchMail() {
 
             if (response.data.status == "valid") {
 
-             document.getElementById("imail").style.color = "green";
-             document.getElementById("irslt").style.color = "green";
-             document.getElementById("iscr").style.color = "green";
-             document.getElementById("ists").style.color = "green";
+               document.getElementById("imail").style.color = "green";
+               document.getElementById("irslt").style.color = "green";
+               document.getElementById("iscr").style.color = "green";
+               document.getElementById("ists").style.color = "green";
 
-         }else{
+           }else{
             document.getElementById("imail").style.color = "red";
             document.getElementById("irslt").style.color = "red";
             document.getElementById("iscr").style.color = "red";
@@ -313,12 +313,12 @@ function SearchMail() {
 
             if (response.data.status == "valid") {
 
-             document.getElementById("imail").style.color = "green";
-             document.getElementById("irslt").style.color = "green";
-             document.getElementById("iscr").style.color = "green";
-             document.getElementById("ists").style.color = "green";
+               document.getElementById("imail").style.color = "green";
+               document.getElementById("irslt").style.color = "green";
+               document.getElementById("iscr").style.color = "green";
+               document.getElementById("ists").style.color = "green";
 
-         }else{
+           }else{
             document.getElementById("imail").style.color = "red";
             document.getElementById("irslt").style.color = "red";
             document.getElementById("iscr").style.color = "red";
@@ -352,12 +352,12 @@ function SearchMail() {
 
             if (response.data.status == "valid") {
 
-             document.getElementById("imail").style.color = "green";
-             document.getElementById("irslt").style.color = "green";
-             document.getElementById("iscr").style.color = "green";
-             document.getElementById("ists").style.color = "green";
+               document.getElementById("imail").style.color = "green";
+               document.getElementById("irslt").style.color = "green";
+               document.getElementById("iscr").style.color = "green";
+               document.getElementById("ists").style.color = "green";
 
-         }else{
+           }else{
             document.getElementById("imail").style.color = "red";
             document.getElementById("irslt").style.color = "red";
             document.getElementById("iscr").style.color = "red";
@@ -391,12 +391,12 @@ function SearchMail() {
 
             if (response.data.status == "valid") {
 
-             document.getElementById("imail").style.color = "green";
-             document.getElementById("irslt").style.color = "green";
-             document.getElementById("iscr").style.color = "green";
-             document.getElementById("ists").style.color = "green";
+               document.getElementById("imail").style.color = "green";
+               document.getElementById("irslt").style.color = "green";
+               document.getElementById("iscr").style.color = "green";
+               document.getElementById("ists").style.color = "green";
 
-         }else{
+           }else{
             document.getElementById("imail").style.color = "red";
             document.getElementById("irslt").style.color = "red";
             document.getElementById("iscr").style.color = "red";
@@ -430,12 +430,12 @@ function SearchMail() {
 
             if (response.data.status == "valid") {
 
-             document.getElementById("imail").style.color = "green";
-             document.getElementById("irslt").style.color = "green";
-             document.getElementById("iscr").style.color = "green";
-             document.getElementById("ists").style.color = "green";
+               document.getElementById("imail").style.color = "green";
+               document.getElementById("irslt").style.color = "green";
+               document.getElementById("iscr").style.color = "green";
+               document.getElementById("ists").style.color = "green";
 
-         }else{
+           }else{
             document.getElementById("imail").style.color = "red";
             document.getElementById("irslt").style.color = "red";
             document.getElementById("iscr").style.color = "red";
@@ -469,12 +469,12 @@ function SearchMail() {
 
             if (response.data.status == "valid") {
 
-             document.getElementById("imail").style.color = "green";
-             document.getElementById("irslt").style.color = "green";
-             document.getElementById("iscr").style.color = "green";
-             document.getElementById("ists").style.color = "green";
+               document.getElementById("imail").style.color = "green";
+               document.getElementById("irslt").style.color = "green";
+               document.getElementById("iscr").style.color = "green";
+               document.getElementById("ists").style.color = "green";
 
-         }else{
+           }else{
             document.getElementById("imail").style.color = "red";
             document.getElementById("irslt").style.color = "red";
             document.getElementById("iscr").style.color = "red";
@@ -508,12 +508,12 @@ function SearchMail() {
 
             if (response.data.status == "valid") {
 
-             document.getElementById("imail").style.color = "green";
-             document.getElementById("irslt").style.color = "green";
-             document.getElementById("iscr").style.color = "green";
-             document.getElementById("ists").style.color = "green";
+               document.getElementById("imail").style.color = "green";
+               document.getElementById("irslt").style.color = "green";
+               document.getElementById("iscr").style.color = "green";
+               document.getElementById("ists").style.color = "green";
 
-         }else{
+           }else{
             document.getElementById("imail").style.color = "red";
             document.getElementById("irslt").style.color = "red";
             document.getElementById("iscr").style.color = "red";
@@ -528,9 +528,7 @@ function SearchMail() {
 
 
 
-document.getElementById('inputmail').value = "";
-
-
+    document.getElementById('inputmail').value = "";
 
 }
 
