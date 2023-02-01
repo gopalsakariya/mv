@@ -1,0 +1,300 @@
+@font-face{
+    font-family: 'Gilroy';
+    src: url(https://cvd.gopal.ga/CASTELAR.woff) format(woff);
+}
+* {
+ font-family: Gilroy;
+}
+body {
+  font-size: 15pt;
+  font-family: Gilroy;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) ,url('https://cvd.gopal.ga/bg2.jpg');
+  background-size: cover;
+}
+
+.lbl {
+    color: black;
+    padding: 5px 10px;
+}
+
+.val {
+  color: grey;
+}
+
+span {
+  color: #fbbe62; 
+  padding: 5px 10px
+}
+
+#gitlink, #site, #mail {
+  text-align: centre;
+
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: square;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    height: 65px;
+    border: 1px solid #fbbe62; 
+
+
+
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+
+    -webkit-box-shadow: 0px 0px 4px #fbbe62;
+    -moz-box-shadow: 0px 0px 4px #fbbe62;
+    box-shadow: 0px 0px 4px #fbbe62;
+    margin: 0 auto;
+
+    background-color: transparent;
+}
+/* -------- LOGO -------- */
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.logo img{
+    width: 50px;
+   border: 1px solid #fbbe62; 
+
+
+
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+
+    -webkit-box-shadow: 0px 0px 4px #fbbe62;
+    -moz-box-shadow: 0px 0px 4px #fbbe62;
+    box-shadow: 0px 0px 4px #fbbe62;
+    margin-right:5px;
+    border-radius:50%;
+}
+.logo p {
+    font-weight: bold;
+    color: #fbbe62;
+}
+/* -------- NAV -------- */
+nav{
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li:last-child{
+    padding-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fbbe62;
+    padding: 10px;
+}
+
+footer{
+    max-width: 1200px;
+    height: 65px;
+    margin: 0 auto;
+    background-color: transparent;
+
+    border: 1px solid #fbbe62;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 4px #fbbe62;
+    -moz-box-shadow: 0px 0px 4px #fbbe62;
+    box-shadow: 0px 0px 4px #fbbe62;
+}
+
+.footer-container{
+  box-shadow: rgba(17, 17, 26, 0.1) 0p                                                                                                                                                                                                                                                                                          x 1px 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright p{
+    color: #fbbe62;
+    font-weight:bolder;
+}
+
+input {
+    margin: 5px 11px;
+    padding: 7px 10px;
+    border-radius: 4px;
+   
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+
+
+    background: rgba(23, 21, 21, .5);
+
+
+    border: .5px solid #444;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 #000;
+    color: #888;
+    display: block;
+    text-shadow: 0 -1px 0 #000;
+}
+
+
+
+
+input:focus {
+    animation: glow 800ms ease-out infinite alternate;
+    background: #222922;
+    background: linear-gradient(#333933, #222922);
+    border-color: #fbbe62;
+    box-shadow: 0 0 5px rgba(251,190,98,.2), inset 0 0 5px rgba(251,190,98,.1), 0 2px 0 #000;
+    color: #efe;
+    outline: none;
+}
+
+
+
+
+input::-webkit-input-placeholder {
+   color: #888;
+}
+
+input:-moz-placeholder {
+   color: #888;
+}
+
+
+input:focus::-webkit-input-placeholder { 
+    color: #efe;
+}
+
+input:focus:-moz-placeholder {
+    color: #efe;
+}
+
+
+button {
+    color: #fbbe62;
+    margin: 6px 11px;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+
+  position: relative;
+  display: block;
+  text-align: center;
+
+
+ 
+    background: rgb(34, 34, 34,.5);   
+    background: linear-gradient(rgb(51, 51, 51,.5), rgb(34, 34, 34,.5));
+
+  color: #fbbe62;
+  transition: .5s;
+
+  border: 1px solid rgba(23, 21, 21, .5); 
+
+
+
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+
+    -webkit-box-shadow: 0px 0px 4px rgba(23, 21, 21, .5);
+    -moz-box-shadow: 0px 0px 4px rgba(23, 21, 21, .5);
+    box-shadow: 0px 0px 4px rgba(23, 21, 21, .5);
+  text-shadow: 0 0 5px rgba(23, 21, 21, .5);
+}
+
+button:before, input:before {
+  content: '';
+  position: absolute;
+ 
+  background: #fbbe62;
+  transition: .5s;
+  transform: scale(.5);
+  z-index: -1;
+}
+
+button:hover:before, input:hover:before {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px #fbbe62;
+  filter: blur(5px);
+}
+
+button:hover, input:hover {
+  color: #ffa502;
+  border: 1px solid #fbbe62; 
+
+
+
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+
+    -webkit-box-shadow: 0px 0px 4px #fbbe62;
+    -moz-box-shadow: 0px 0px 4px #fbbe62;
+    box-shadow: 0px 0px 4px #fbbe62;
+  text-shadow: 0 0 5px #fbbe62;
+}
+
+#infooter {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 105px;
+    background-color: transparent;
+
+    border: 1px solid #fbbe62; 
+
+
+
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+
+    -webkit-box-shadow: 0px 0px 4px #fbbe62;
+    -moz-box-shadow: 0px 0px 4px #fbbe62;
+    box-shadow: 0px 0px 4px #fbbe62;
+
+}
