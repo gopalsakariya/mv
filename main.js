@@ -21,7 +21,7 @@ function SearchMail() {
         alert(email);
 
 
-        var ran = Array(1,2,3,4,5,7,8,10,12,16,26,27,28,29,30,31,32,33,34,35,36,37);
+        var ran = Array(1,2,3,4,5,7,8,10,12,26,27,28,29,30,31,32,33,34,35,36,37);
 
         var apin = ran[Math.floor(Math.random()*ran.length)];
 
